@@ -1,0 +1,71 @@
+---
+title: "Open science at the NC CASC"
+subtitle: ""
+author: "Max Joseph"
+institute: "Open science architect"
+date: "2019-06-04"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: inverse, center, middle
+
+# **Openness adds value**
+
+---
+
+# eddi: R package for the NOAA Evaporative Demand Drought Index
+
+```{r eval=TRUE, tidy=FALSE}
+# install.packages('eddi')
+library(eddi)
+
+eddi_data <- get_eddi(date = "2019-05-25", timescale = "1 month")
+eddi_data
+```
+
+---
+
+# 
+
+![](eddi-downloads.gif)
+
+---
+
+class: inverse, center, middle
+
+# **What if all of our science was open?**
+
+---
+
+
+# **Usable** data 
+
+# **Runnable** models
+
+# **Reproducible** papers
+
+# **Trustworthy** science
+
+
+---
+
+# **Help us help you!**
+
+## What are you building?
+
+### - data products?
+### - models?
+### - workflows?
+### - manuscripts?
+### - something else?
+
