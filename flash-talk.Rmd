@@ -19,11 +19,17 @@ options(htmltools.dir.version = FALSE)
 
 class: inverse, center, middle
 
-# **Openness adds value**
+# **What we've been up to**
 
 ---
 
-# eddi: R package for the NOAA Evaporative Demand Drought Index
+# 
+
+![](eddi-downloads.gif)
+
+---
+
+# `eddi`: R package for the NOAA Evaporative Demand Drought Index
 
 ```{r eval=TRUE, tidy=FALSE}
 # install.packages('eddi')
@@ -33,11 +39,13 @@ eddi_data <- get_eddi(date = "2019-05-25", timescale = "1 month")
 eddi_data
 ```
 
----
 
-# 
 
-![](eddi-downloads.gif)
+.footnote[
+[1] http://www.earthdatascience.org/eddi/
+
+[2] Also see http://www.earthdatascience.org/leri/
+]
 
 ---
 
@@ -54,18 +62,18 @@ class: inverse, center, middle
 
 # **Reproducible** papers
 
-# **Trustworthy** science
-
-
 ---
+
+class: inverse, center, middle
 
 # **Help us help you!**
 
-## What are you building?
+---
 
-### - data products?
-### - models?
-### - workflows?
-### - manuscripts?
-### - something else?
+# What can we help you build?
+
+## - data products
+## - models
+## - workflows
+## - manuscripts
 
